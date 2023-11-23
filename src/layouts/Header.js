@@ -31,7 +31,7 @@ const Header = () => {
     document.getElementById("sidebarArea").classList.toggle("showSidebar");
   };
   return (
-    <Navbar color="primary" dark expand="md" className="fix-header p-4">
+    <Navbar  dark expand="md" className="fix-header p-4">
       <div className="d-flex align-items-center">
         <div className="d-lg-block d-none me-5 pe-3">
           <Logo />

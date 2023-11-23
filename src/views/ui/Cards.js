@@ -37,6 +37,8 @@ const Cards = () => {
               <p><FontAwesomeIcon className="pe-2" icon={faCloudArrowDown} />upto 25gb storage</p>
               <p><FontAwesomeIcon className="pe-2" icon={faMailBulk} />Email support</p>
             </CardText>
+            <a href="" className="expo">EXPLORE FEATURES</a>
+          
             
           </Card>
         </Col>
@@ -56,7 +58,7 @@ const Cards = () => {
               <p><FontAwesomeIcon className="pe-2" icon={faMailBulk} />Email+chat support</p>
             
             </CardText>
-            
+            <a href="" className="expo">EXPLORE FEATURES</a>
           </Card>
         </Col>
         <Col md="6" lg="4">
@@ -74,27 +76,27 @@ const Cards = () => {
               <p><FontAwesomeIcon className="pe-2" icon={faCloudArrowDown} />upto 100gb storage</p>
               <p><FontAwesomeIcon className="pe-2" icon={faMailBulk} />Email+chat+whatsapp support</p>
             </CardText>
-            
+            <a href="" className="expo">EXPLORE FEATURES</a>
           </Card>
         </Col>
       </Row>
 
 
-      <div className="row">
-          <div className="col-6">
+      <Row>
+      <Col md="6" lg="6">
             
           <Card body>
-          <div className="row">
-            <div className="col-6">
+          <Row>
+          <Col md="6" lg="6">
             <Button color="btn btn-success" className="bttnnns">Get Started</Button>
             <CardTitle tag="h5"><b>Free Starter</b></CardTitle>
             <p>The quickest and easiest way to try protocols with basic functionalities</p>
             <div>
               <Button color="btn btn-success">Get Started</Button>
             </div>
-            </div>
+          </Col>
             
-            <div className="col-6">
+          <Col md="6" lg="6">
             <CardText>
             <p>What You Will Get:</p>
             <p><FontAwesomeIcon className="pe-2" icon={faContactBook} /> upto 8 users</p>
@@ -102,36 +104,36 @@ const Cards = () => {
               <p><FontAwesomeIcon className="pe-2" icon={faMailBulk} />Email support</p>
               <p><FontAwesomeIcon className="pe-2" icon={faCheck} />Basic of documents,Task Flow,Voting,Accounting,Banking,Nots,Investor,Director And team managenent included</p>
             </CardText>
-            </div>
-            </div>
+          </Col>
+          </Row>
           </Card>
           
-          </div>
+        </Col>
 
-          <div className="col-6">
+        <Col md="6" lg="6">
           <Card body>
-          <div className="row">
-            <div className="col-6">
+          <Row>
+          <Col md="6" lg="6">
             <Button color="btn btn-warning" className="bttnnns">Get Started</Button>
             <CardTitle tag="h5"><b>Enterprise Plan</b></CardTitle>
             <p>The quickest and easiest way to try protocols with basic functionalities</p>
             <div>
               <Button color="btn btn-warning">Get Started</Button>
             </div>
-            </div>
+           </Col>
             
-            <div className="col-6 mt-3 p-5">
+           <Col md="6" lg="6" className="p-5">
             <CardText>
             <p>What You Will Get:</p>
             <p><FontAwesomeIcon className="pe-2" icon={faContactBook} /> morethan 75 users users</p>
             <p><FontAwesomeIcon className="pe-2" icon={faCheck} />Customisation Of other features</p>
               
             </CardText>
-            </div>
-            </div>
+          </Col>
+          </Row>
           </Card>
-          </div>
-      </div>
+        </Col>
+      </Row>
       
     </div>
   );

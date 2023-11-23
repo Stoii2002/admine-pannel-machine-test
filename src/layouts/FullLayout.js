@@ -15,12 +15,23 @@ const FullLayout = () => {
           <Sidebar />
         </aside>
         {/********Content Area**********/}
-        <div className="contentArea">
+      
+        
+        <div className="contentArea me-5" style={{ backgroundColor: '#f2f7f8'}}>
           {/********Middle Content**********/}
           <Container className="p-5" fluid>
             <Cards/>
           </Container>
         </div>
+        
+
+        
+
+      
+
+
+
+
       </div>
     </main>
   );
