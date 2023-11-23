@@ -25,7 +25,7 @@ const navigation = [
     icon: "bi bi-hdd-stack",
   },
   {
-    title: "Supports",
+    title: "Support",
     
     icon: "bi bi-card-text",
   },
