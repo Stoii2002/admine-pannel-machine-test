@@ -51,7 +51,8 @@ p{font-size: 13px;}
 text-decoration: none;
 }
 .botm{text-align: center;}
-.p-3.d-flex.immg{justify-content: center;}
+.p-3.immg{justify-content: center;display: grid;}
+.p-3.immg p{justify-content: center;display: grid;}
 .lneth{text-decoration: line-through red;}
 .body{background-color: red;}
 .expo{color: black;

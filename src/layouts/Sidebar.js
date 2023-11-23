@@ -43,9 +43,9 @@ const Sidebar = () => {
 
   return (
     <div>
-      <div className="p-3 d-flex immg">
+      <div className="p-3 immg">
       <div>
-        <div className="p-3 d-flex immg">
+        <div className="p-3 immg">
           <img src={user1} alt="user" width="50" className="rounded-circle" />
           
         </div>
@@ -53,6 +53,7 @@ const Sidebar = () => {
         
         
       </div>
+      <p style={{ textDecoration: 'underline' ,marginTop:'0px',lineHeight:'0px'}}>ram@gmail.com</p>
       </div>
       <hr/>
       <div className="p-1">
