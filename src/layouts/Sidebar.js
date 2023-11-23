@@ -43,24 +43,19 @@ const Sidebar = () => {
 
   return (
     <div>
-      <div className="d-flex align-items-center"></div>
-      <div
-        className="profilebg"
-        style={{ background: `url(${probg}) no-repeat` }}
-      >
-        <div className="p-3 d-flex">
+      <div className="p-3 d-flex immg">
+      <div>
+        <div className="p-3 d-flex immg">
           <img src={user1} alt="user" width="50" className="rounded-circle" />
-          <Button
-            color="white"
-            className="ms-auto text-white d-lg-none"
-            onClick={() => showMobilemenu()}
-          >
-            <i className="bi bi-x"></i>
-          </Button>
+          
         </div>
-        <div className="bg-dark text-white p-2 opacity-75">Steave Rojer</div>
+        <p><b>Ram Mohan</b></p>
+        
+        
       </div>
-      <div className="p-3 mt-2">
+      </div>
+      <hr/>
+      <div className="p-1">
         <Nav vertical className="sidebarNav">
           {navigation.map((navi, index) => (
             <NavItem key={index} className="sidenav-bg">

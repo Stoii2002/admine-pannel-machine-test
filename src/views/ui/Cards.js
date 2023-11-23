@@ -24,7 +24,7 @@ const Cards = () => {
         <Col md="6" lg="4">
           <Card body>
             <CardTitle tag="h5"><b>Basic</b></CardTitle>
-            <p>$89.99/mon</p>
+            <p className="lneth">$89.99/mon</p>
             <p className="fsize">$9.99/mon</p>
             
             <div>
@@ -43,7 +43,7 @@ const Cards = () => {
         <Col md="6" lg="4">
           <Card body>
             <CardTitle tag="h5"><b>Standard</b></CardTitle>
-            <p>$199.99/mon</p>
+            <p className="lneth">$199.99/mon</p>
             <p className="fsize">$99.99/mon</p>
             <div>
               <Button color="light-danger">Get Started</Button>
@@ -62,7 +62,7 @@ const Cards = () => {
         <Col md="6" lg="4">
           <Card body>
             <CardTitle tag="h5"><b>Premium</b></CardTitle>
-            <p>$399.99/mon</p>
+            <p className="lneth">$399.99/mon</p>
             <p className="fsize">$199.99/mon</p>
             <div>
               <Button color="light-success">Get Started</Button>
