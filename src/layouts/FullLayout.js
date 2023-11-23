@@ -1,7 +1,8 @@
 import { Outlet } from "react-router-dom";
 import Sidebar from "./Sidebar";
 import Header from "./Header";
-import { Container } from "reactstrap";
+import { Card, Container } from "reactstrap";
+import Cards from "../views/ui/Cards";
 
 const FullLayout = () => {
   return (
@@ -16,8 +17,8 @@ const FullLayout = () => {
         {/********Content Area**********/}
         <div className="contentArea">
           {/********Middle Content**********/}
-          <Container className="p-4" fluid>
-            <Outlet />
+          <Container className="p-5" fluid>
+            <Cards/>
           </Container>
         </div>
       </div>
