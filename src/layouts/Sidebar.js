@@ -2,6 +2,8 @@ import { Button, Nav, NavItem } from "reactstrap";
 import { Link, useLocation } from "react-router-dom";
 import user1 from "../assets/images/users/user4.jpg";
 import probg from "../assets/images/bg/download.jpg";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCheck, faCloud, faCloudArrowDown, faContactBook, faMailBulk, faMailForward, faPowerOff } from '@fortawesome/free-solid-svg-icons';
 
 const navigation = [
   {
@@ -78,6 +80,7 @@ const Sidebar = () => {
          
         </Nav>
       </div>
+      <div className="botm"><a href="">LogOut<FontAwesomeIcon className="ps-2" icon={faPowerOff} /></a></div>
     </div>
   );
 };
