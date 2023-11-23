@@ -20,7 +20,7 @@ const navigation = [
     icon: "bi bi-patch-check",
   },
   {
-    title: "Faq",
+    title: "FAQ",
    
     icon: "bi bi-hdd-stack",
   },
