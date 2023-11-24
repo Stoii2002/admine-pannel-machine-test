@@ -76,7 +76,7 @@ const Sidebar = () => {
          
         </Nav>
       </div>
-      <div className="botm"><a href="">LogOut<FontAwesomeIcon className="ps-2" icon={faPowerOff} /></a></div>
+      <div className="botm pt-3"><a href="">LogOut<FontAwesomeIcon className="ps-2" icon={faPowerOff} /></a></div>
     </div>
   );
 };

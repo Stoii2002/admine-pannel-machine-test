@@ -132,6 +132,7 @@ const Cards = () => {
           </Col>
           </Row>
           </Card>
+          <a href="" className="flnk">Some unique features are provided as added-ones with inividual plans for each features</a>
         </Col>
       </Row>
       
