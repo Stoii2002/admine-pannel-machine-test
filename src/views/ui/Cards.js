@@ -21,6 +21,18 @@ const Cards = () => {
     
       <Row>
       <h5 className="mb-3"><b>Choose a plan that's just right for you !</b></h5>
+
+      <div class="btn-container">
+    <i class="fa fa-sun-o" aria-hidden="true"></i>
+      <label class="switch btn-color-mode-switch">
+            <input type="checkbox" name="color_mode" id="color_mode" value="1"/>
+            <label for="color_mode" data-on="Annual" data-off="Monthly" class="btn-color-mode-switch-inner"></label>
+        </label>
+      <i class="fa fa-moon-o" aria-hidden="true"></i>
+      
+  </div>
+                  
+
         <Col md="6" lg="4">
           <Card body>
             <CardTitle tag="h5"><b>Basic</b></CardTitle>
@@ -38,7 +50,7 @@ const Cards = () => {
               <p><FontAwesomeIcon className="pe-2" icon={faMailBulk} />Email support</p>
             </CardText>
             <a href="" className="expo">EXPLORE FEATURES</a>
-          
+               
             
           </Card>
         </Col>
